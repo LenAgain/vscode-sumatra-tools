@@ -1,7 +1,7 @@
 {
     "name": "sumatra-tools",
     "displayName": "Sumatra Tools",
-    "description": "Commands for interfacing with SumatraPDF reader.",
+    "description": "Commands for interfacing with Sumatra PDF reader.",
     "author": "LenAgain",
     "preview": true,
     "publisher": "lenagain",
@@ -24,11 +24,11 @@
         "commands": [
             {
                 "command": "sumatra-tools.openFile",
-                "title": "SumatraPDF: Open File"
+                "title": "Sumatra PDF: Open File"
             },
             {
                 "command": "sumatra-tools.forwardSearch",
-                "title": "SumatraPDF: Forward Search"
+                "title": "Sumatra PDF: Forward Search"
             }
         ],
         "menus": {
@@ -45,11 +45,11 @@
                 "title": "Sumatra Tools",
                 "properties": {
                     "sumatra-tools.executable": {
-                        "markdownDescription": "The path to the `sumatraPDF` executable.",
+                        "markdownDescription": "The path to the Sumatra PDF executable.",
                         "order": 10,
                         "type": "string",
                         "scope": "resource",
-                        "default": "sumatraPDF"
+                        "default": "SumatraPDF"
                     }
                 }
             }
