@@ -1,0 +1,9 @@
+.vscode/**
+
+src/**
+**/*.map
+**/*.ts
+
+.yarnrc
+**/tsconfig.json
+**/.eslintrc.json
