@@ -11,6 +11,7 @@
         "url": "https://github.com/LenAgain/sumatra-tools.git",
         "type": "git"
     },
+    "icon": "icon.ico",
     "categories": [
         "Other"
     ],
