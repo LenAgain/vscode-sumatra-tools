@@ -17,6 +17,9 @@
     "activationEvents": [
         "workspaceContains:*.pdf"
     ],
+    "extensionKind": [
+        "workspace"
+    ],
     "contributes": {
         "commands": [
             {
