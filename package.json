@@ -3,6 +3,7 @@
     "displayName": "Sumatra Tools",
     "description": "Commands for interfacing with SumatraPDF reader.",
     "author": "LenAgain",
+    "preview": true,
     "publisher": "lenagain",
     "version": "0.0.1",
     "license": "GPL-3.0-or-later",
