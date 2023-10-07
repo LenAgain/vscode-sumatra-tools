@@ -5,6 +5,11 @@
     "author": "LenAgain",
     "publisher": "lenagain",
     "version": "0.0.1",
+    "license": "GPL-3.0-or-later",
+    "repository": {
+        "url": "https://github.com/LenAgain/sumatra-tools.git",
+        "type": "git"
+    },
     "categories": [
         "Other"
     ],
