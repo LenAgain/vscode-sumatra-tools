@@ -14,9 +14,14 @@ function launchSumatra(...args: string[]) {
 
 	logger.info('Spawning SumatraPDF process:', executable, args.join(' '));
 
-	const child = spawn(executable, args);
+	// This works fine on Windows, but I'm not sure its portable.
+	// The child_process docs mention needing to .unref() the process
+	// and ignore the parent's stdio connections.
+	//
+	// This works for now and I'm currently only using this on Windows
+	const process = spawn(executable, args, { detached: true });
 
-	child.on('error', (error: NodeJS.ErrnoException) => {
+	process.on('error', (error: NodeJS.ErrnoException) => {
 		if (error.code === 'ENOENT') {
 			logger.error("Can't find specified SumatraPDF executable:", executable);
 
